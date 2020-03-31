@@ -2,14 +2,15 @@
 
 <main>
   <div class="row align-items-center pt-5 pb-5">
+    
+    <div class="col-12 col-lg-6">
+      <img src="<?= $page->image()->url(); ?>" class="img-fluid" alt="<?= $page->image()->title(); ?>" />
+    </div>
     <div class="col-12 col-lg-6">
       <h1><?= $page->introductiontitle() ?></h1>
       <p class="lead"><?= $page->introductiontext() ?></p>
       <a href="<?= $site->page('projects') ?>" class="btn btn-primary" role="button" aria-pressed="true">View my work</a>
       <a href="<?= $site->page('about') ?>" class="btn btn-outline-primary" role="button" aria-pressed="true">More about me</a>
-    </div>
-    <div class="col-12 col-lg-6">
-      <img src="<?= $page->image()->url(); ?>" class="img-fluid" alt="<?= $page->image()->title(); ?>" />
     </div>
   </div>
   <?php
@@ -17,7 +18,7 @@
   <div class="row border-top pt-5 pb-5">
     <div class="col-12">
       <h2 class="float-left pb-4">My work</h2>
-      <a class="float-right" href="<?= $site->page('projects') ?>">View all projects &#8594;</a>
+      <a class="float-right projectsknop" href="<?= $site->page('projects') ?>">View all projects &#8594;</a>
     </div>
     <?php foreach ($projectsPage->children()->listed()->paginate(3) as $project): ?>
     <div class="col-12 col-lg-4 mb-4">
@@ -26,7 +27,7 @@
       <div class="card-body">
         <h4 class="card-title"><a href="<?= $project->url() ?>"><?= $project->title() ?></a></h4>
         <p class="card-text"><?= $project->roles() ?></p>
-        <a href="<?= $project->url() ?>">Read more &#8594;</a>
+        <a class="readmoreknop" href="<?= $project->url() ?>">Read more &#8594;</a>
       </div>
     </div>
     </div>

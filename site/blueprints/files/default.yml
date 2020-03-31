@@ -1,7 +1,7 @@
 title: default
 
 accept:
-  mime: image/*
+  mime: image/jpeg, image/png, image/gif
 
 columns:
   - width: 1/2

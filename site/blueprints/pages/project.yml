@@ -36,6 +36,8 @@ columns:
       thumbnail:
         headline: Preview image
         type: files
+        accept:
+          mime: image/*
         template: thumbnail
         empty: Upload your preview image (File format JPEG, PNG or SVG)
         layout: cards

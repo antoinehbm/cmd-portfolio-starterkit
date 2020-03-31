@@ -29,7 +29,7 @@ tabs:
         type: files
         layout: cards
         size: tiny
-        accept: image/jpeg
+        accept: image/jpeg, image/png, image/gif
       email:
         label: Your email address
         type: email

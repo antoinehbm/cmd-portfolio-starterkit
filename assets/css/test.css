@@ -1,0 +1,25 @@
+.readmoreknop
+{
+    color: green;
+}
+
+.projectsknop
+{
+    color: orange;
+}
+
+.card
+{
+    background-color: blue;
+}
+
+.card-title a
+{
+    color: #000;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+    }

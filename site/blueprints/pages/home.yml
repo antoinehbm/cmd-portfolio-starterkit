@@ -31,7 +31,7 @@ columns:
         headline: Your introduction image
         type: files
         accept:
-          mime: image/jpeg, image/png, image/svg+xml
+          mime: image/*
         empty: Upload your preview image (File format JPEG, PNG or SVG)
         layout: cards
         multiple: false
