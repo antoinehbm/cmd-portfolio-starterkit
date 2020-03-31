@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&display=swap" rel="stylesheet">
   <link rel="icon" href="<?= $site->image()->url() ?>">
 
-  <title><?= $site->title() ?> | <?= $page->title() ?></title>
+  <title>Dit is een aangepaste title</title>
 
 </head>
 <body>
