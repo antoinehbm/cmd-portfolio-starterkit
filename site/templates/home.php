@@ -2,7 +2,9 @@
 
 <main>
   <div class="row align-items-center pt-5 pb-5">
-    
+  <div class="col-12 col-lg-6">
+      <img src="<?= $page->image()->url(); ?>" class="img-fluid" alt="<?= $page->image()->title(); ?>" />
+    </div>
   <div class="col-12 col-lg-6">
       <h1><?= $page->introductiontitle() ?></h1>
       <p class="lead"><?= $page->introductiontext() ?></p>
@@ -10,9 +12,7 @@
       <a href="<?= $site->page('about') ?>" class="btn btn-outline-primary" role="button" aria-pressed="true">More about me</a>
     </div>
 
-    <div class="col-12 col-lg-6">
-      <img src="<?= $page->image()->url(); ?>" class="img-fluid" alt="<?= $page->image()->title(); ?>" />
-    </div>
+    
   </div>
 
 
