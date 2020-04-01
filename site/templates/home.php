@@ -23,7 +23,7 @@
           <p>Dit is dummytekst blablabla laalal ieodjoswde  iop;ueadh oiu adeuio aesdoiua </p>
         </div>
         <div class="col-6">
-          <p>Dit is dummytekst blablabla. Laten we er voor de verandering eens even gewone tekst van maken, kijken of dat werkt. ja leuk doei...</p>
+          <p>Dit is dummytekst hoi. Laten we er voor de verandering eens even gewone tekst van maken, kijken of dat werkt. ja leuk doei...</p>
         </div>
       </div>
     </div>
