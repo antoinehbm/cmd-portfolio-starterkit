@@ -18,7 +18,7 @@
 
   <div class="row">
     <div class="col-12">
-      <p>Aangepaste versie 7 april 12:30</p>
+      <p>Nog een keer</p>
     </div>
   </div>
 
