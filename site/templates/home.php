@@ -18,7 +18,7 @@
 
   <div class="row">
     <div class="col-12">
-      <p>Nog een keer</p>
+      <p>Voor de laatste keer dan hoor</p>
     </div>
   </div>
 
