@@ -5,6 +5,15 @@
       <?php snippet('intro') ?>
     </div>
   </div>
+
+
+<h1>Hier een test</h1>
+
+<img src="<?= $site->url() ?>/img/ts.png">
+
+<?= $site->url() ?>/img/nrcxteam.jpg">
+
+
   <div class="row pb-5">
     <div class="col-6 col-lg-3 border-bottom pt-4 pb-4">
       <h6>Roles:</h6>

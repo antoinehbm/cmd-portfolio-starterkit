@@ -17,18 +17,8 @@
 
 
   <div class="row">
-    <div class="col-6">
-      <div class="row">
-        <div class="col-6">
-          <p>Dit is dummytekst blablabla laalal ieodjoswde  iop;ueadh oiu adeuio aesdoiua </p>
-        </div>
-        <div class="col-6">
-          <p>Dit is dummytekst hoi. Laten we er voor de verandering eens even gewone tekst van maken, kijken of dat werkt. ja leuk doei...</p>
-        </div>
-      </div>
-    </div>
-    <div class="col-6">
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, sit molestiae nobis quidem dicta Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea suscipit aperiam quia, ducimus aut incidunt eum voluptates, soluta eligendi quod beatae corrupti cupiditate consequuntur facilis veritatis aliquid quos quaerat possimus. </p>
+    <div class="col-12">
+      <p>Aangepaste versie 7 april 12:30</p>
     </div>
   </div>
 
